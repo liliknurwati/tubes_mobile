@@ -32,7 +32,7 @@ class HomePage extends StatefulWidget{
                       )
                     ),
                     GestureDetector(
-                      child: Icon(Icons.remove_red_eye_rounded),
+                      child: new Image.asset('assets/fast-food.png'),
                       onTap: (){
                         Navigator.pushNamed(context, '/...');
                       },
@@ -55,7 +55,7 @@ class HomePage extends StatefulWidget{
                       )
                     ),
                     GestureDetector(
-                      child: Icon(Icons.remove_red_eye_rounded),
+                      child: new Image.asset('assets/team.png'),
                       onTap: (){
                         Navigator.pushNamed(context, '/...',);
                       },
@@ -77,7 +77,7 @@ class HomePage extends StatefulWidget{
                       )
                     ),
                     GestureDetector(
-                      child: Icon(Icons.remove_red_eye_rounded),
+                      child: new Image.asset('assets/data.jpeg'),
                       onTap: (){
                         Navigator.pushNamed(context, '/...',);
                       },
