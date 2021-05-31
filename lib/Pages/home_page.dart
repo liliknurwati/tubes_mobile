@@ -32,7 +32,7 @@ class HomePage extends StatefulWidget{
                       )
                     ),
                     GestureDetector(
-                      child: new Image.asset('assets/fast-food.png'),
+                      child: new Image.asset('assets/fast-food.png', height: 60, width: 60,),
                       onTap: (){
                         Navigator.pushNamed(context, '/...');
                       },
@@ -55,7 +55,7 @@ class HomePage extends StatefulWidget{
                       )
                     ),
                     GestureDetector(
-                      child: new Image.asset('assets/team.png'),
+                      child: new Image.asset('assets/team.png', height: 60, width: 60),
                       onTap: (){
                         Navigator.pushNamed(context, '/...',);
                       },
@@ -77,7 +77,7 @@ class HomePage extends StatefulWidget{
                       )
                     ),
                     GestureDetector(
-                      child: new Image.asset('assets/data.jpeg'),
+                      child: new Image.asset('assets/data.jpeg', height: 60, width: 60),
                       onTap: (){
                         Navigator.pushNamed(context, '/...',);
                       },
